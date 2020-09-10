@@ -1,0 +1,78 @@
+h1 {
+  color: black;
+  font-size: 5vw;
+  font-variant: small-caps;
+  text-shadow: 3px 3px red;
+}
+
+p {
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: khaki;
+}
+
+.first li {
+  list-style-position: inside;
+}
+
+.second li {
+  list-style-position: outside;
+}
+.third {
+  word-wrap: break-word;
+  word-break: keep-all;
+}
+
+ul {
+  background-color: rgb(252, 125, 7);
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  padding: 15px 30px;
+  text-decoration: none;
+  color: mediumvioletred;
+  display: block;
+}
+
+ul li a:hover {
+  background-color: red;
+  color: white;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 90%;
+  height: 40vh;
+  table-layout: fixed;
+  empty-cells: hide;
+  outline-style: thin;
+}
+
+td {
+  text-align: center;
+}
+
+caption {
+  caption-side: top;
+}
+tbody tr:nth-child(3n + 1) {
+  background-color: rgb(252, 125, 7);
+}
+
+.mytable {
+  overflow-x: auto;
+}
