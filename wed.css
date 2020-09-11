@@ -6,7 +6,6 @@ h1 {
 }
 
 p {
-  width: 100px;
   overflow: hidden;
   white-space: nowrap;
   background-color: khaki;
@@ -75,4 +74,20 @@ tbody tr:nth-child(3n + 1) {
 
 .mytable {
   overflow-x: auto;
+}
+
+.main-view{
+    background-color: rgb(252, 125, 7);
+    height: 100vh;
+}
+
+.mylink{
+    padding: 12rem;
+    color: khaki;
+    bottom: 0;
+}
+button{
+    background-color: rgb(174, 188, 253);
+    font-size: 16px;
+    font-family: cursive;
 }
